@@ -75,9 +75,11 @@ ChatGLM3运行文件: `git clone https://github.com/xuwudawei/ChatGLM3`
 
 在运行文件里: 
 
+修改`requirements.txt`，使用匹配的torch版本，个人使用`torch==1.13.0+cu116`
+
 `cd openai_demo`
 
-修改`Model_Path`和`Tokenizer_Path`，指向模型位置
+修改`api_server.py`里`Model_Path`和`Tokenizer_Path`，指向模型位置
 
 确认port端口，默认8000。
 
